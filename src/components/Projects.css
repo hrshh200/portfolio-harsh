@@ -1,0 +1,84 @@
+.project-me-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    align-items: center;
+    padding: 50px;
+    padding-left: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 70%;
+}
+
+.project-me-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    z-index: -1;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.slide-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.button-container {
+    padding-top: 270px;
+    display: flex;
+    gap: 10px;
+    color: blanchedalmond;
+    z-index: 1;
+}
+
+.button-container button {
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+.slide1 {
+    background-image: url('./photos/med.png');
+    opacity: 0.9;
+}
+
+.slide2 {
+    background-image: url('./photos/pres.png');
+}
+
+.slide3 {
+    background-image: url('./photos/trans.png');
+}
+
+.slide4 {
+    background-image: url('./photos/heart.png');
+}
+
+.slide5 {
+    background-image: url('./photos/crud.png');
+}

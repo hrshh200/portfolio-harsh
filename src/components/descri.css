@@ -1,0 +1,138 @@
+.title-h {
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    left: 0%;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.title-n {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    left: 0%;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.title-p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    left: 0%;
+    white-space: nowrap;
+    padding-left: 80px;
+}
+
+@keyframes fade-in-out {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    25%,
+    75% {
+        opacity: 1;
+    }
+}
+
+.title-n {
+    animation: fade-in-out 2s infinite 3s;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 1000px;
+    padding-top: 100px;
+    /* Optional shadow for card effect */
+}
+
+.custom-instagram-icon {
+    color: red;
+}
+
+.custom-linkedin-icon {
+    color: #0e76a8;
+}
+
+.custom-github-icon {
+    color: #333;
+}
+
+.custom-leetcode-icon {
+    font-size: 30px;
+    color: orange;
+}
+
+.custom-hackerrank-icon {
+    font-size: 20px;
+    color: green;
+}
+
+.icon-container {
+    background-color: linear-gradient(to right, black, rgb(4, 4, 53));
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    padding-left: 10px;
+    position: relative;
+    /* Adjust for spacing above icons */
+}
+
+.icon-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    /* Ensures the icon inherits the link color */
+    text-decoration: none;
+    padding-top: 10px;
+    /* Removes underline from links */
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: linear-gradient(to right, black, rgb(4, 4, 53));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+}
+
+.card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* Aligns card to the left */
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    /* Adjust to move the card away from the edge */
+}
